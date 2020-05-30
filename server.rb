@@ -1,6 +1,5 @@
-require "bundler/setup"
 require "sinatra"
-require "sinatra/reloader"
+require 'sinatra/base'
 require "recaptcha"
 
 # The following site_key and secret_key are defined by Google for testing purposes.
@@ -10,23 +9,25 @@ Recaptcha.configure do |config|
   config.secret_key = "6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe"
 end
 
-include Recaptcha::Adapters::ControllerMethods
-include Recaptcha::Adapters::ViewMethods
+class Server < Sinatra::Base
+  include Recaptcha::Adapters::ControllerMethods
+  include Recaptcha::Adapters::ViewMethods
 
-get "/" do
-  <<-HTML
-    <h1>Demo for reCAPTCHA V2 automated testing</h1>
-    <form action="/verify">
-      #{recaptcha_tags}
-      <button type="submit">Submit</button>
-    </form>
-HTML
-end
+  get "/" do
+    <<-HTML
+      <h1>Demo for reCAPTCHA V2 automated testing</h1>
+      <form action="/verify">
+        #{recaptcha_tags}
+        <button type="submit">Submit</button>
+      </form>
+  HTML
+  end
 
-get "/verify" do
-  if verify_recaptcha
-    "success"
-  else
-    "fail"
+  get "/verify" do
+    if verify_recaptcha
+      "success"
+    else
+      "fail"
+    end
   end
 end
