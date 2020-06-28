@@ -1,3 +1,5 @@
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 ## Prerequisites
 
 - [Docker](https://www.docker.com/)
@@ -44,5 +46,5 @@ Automated deploying to production. Hosted on Heroku.
 
 ## License
 
-automated-tests-with-reCAPTCHA © Sam Yamashita. Released under the [MIT License](LICENSE).<br/>
-Authored and maintained by Sam Yamashita with help from contributors.
+automated-tests-with-reCAPTCHA © Autify Engineers. Released under the [MIT License](LICENSE).<br/>
+Authored and maintained by Autify Engineers with help from [contributors](https://github.com/autifyhq/autify-demo-test-with-reCAPTCHA/graphs/contributors).
