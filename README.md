@@ -1,10 +1,12 @@
-[pr-welcome-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
+[github-action-badge]: https://github.com/autifyhq/autify-demo-test-with-reCAPTCHA/workflows/Check%20Markdown%20links/badge.svg
+
+[pr-welcome-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
 [pr-welcome-link]: http://makeapullrequest.com
 
-[demo-badge]: https://img.shields.io/badge/Autify-Demo-brightgreen?style=flat-square
+[demo-badge]: https://img.shields.io/badge/Autify-Demo-brightgreen
 [demo-link]:  https://github.com/search?utf8=%E2%9C%93&q=demo%2Buser%3Aautifyhq&type=Repositories&ref=searchresults
 
-[![PRs Welcome][pr-welcome-badge]][pr-welcome-link] [![Demo Badge][demo-badge]][demo-link]
+![Check Markdown links][github-action-badge] [![PRs Welcome][pr-welcome-badge]][pr-welcome-link] [![Demo Badge][demo-badge]][demo-link]
 
 ## Prerequisites
 
