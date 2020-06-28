@@ -54,5 +54,5 @@ Automated deploying to production. Hosted on Heroku.
 
 ## License
 
-automated-tests-with-reCAPTCHA © Autify Engineers. Released under the [MIT License](LICENSE).<br/>
-Authored and maintained by Autify Engineers with help from [contributors](https://github.com/autifyhq/autify-demo-test-with-reCAPTCHA/graphs/contributors).
+automated-tests-with-reCAPTCHA © [Autify Engineers](https://github.com/autifyhq). Released under the [MIT License](LICENSE).<br/>
+Authored and maintained by [Autify Engineers](https://github.com/autifyhq) with help from [contributors](https://github.com/autifyhq/autify-demo-test-with-reCAPTCHA/graphs/contributors).
