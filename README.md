@@ -60,6 +60,11 @@ Automated deploying to production. Hosted on Heroku.
 1. Merge a topic branch into `master`
 1. Heroku deployes the app automatically
 
+## References
+
+- [reCAPTCHA](https://developers.google.com/recaptcha)
+- [google/recaptcha](https://github.com/google/recaptcha)
+
 ## License
 
 automated-tests-with-reCAPTCHA © [Autify Engineers](https://github.com/autifyhq). Released under the [MIT License](LICENSE).<br/>
