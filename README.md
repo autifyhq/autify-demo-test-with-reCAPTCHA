@@ -16,7 +16,7 @@
 
 A lot of services use reCAPTCHA and want to run E2E tests. Google explains how to do that in the part ["I'd like to run automated tests with reCAPTCHA. What should I do?](https://developers.google.com/recaptcha/docs/faq). However, it is generally thought that E2E testing is not possible. For this reason, I created this repository to provide a demo of how to create a reCAPTCHA for testing, so you can easily try it out.
 
-## How to reCAPTCHA this testable
+## How to make reCAPTCHA testable
 
 Google has prepared the following official keys for you to use in place of your existing keys:
 
