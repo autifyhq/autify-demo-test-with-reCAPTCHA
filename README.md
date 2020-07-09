@@ -8,10 +8,6 @@
 
 ![Check Markdown links][github-action-badge] [![PRs Welcome][pr-welcome-badge]][pr-welcome-link] [![Demo Badge][demo-badge]][demo-link]
 
-## Prerequisites
-
-- [Docker](https://www.docker.com/)
-
 ## Background
 
 A lot of services use reCAPTCHA and want to run E2E tests. Google explains how to do that in the part ["I'd like to run automated tests with reCAPTCHA. What should I do?](https://developers.google.com/recaptcha/docs/faq). However, it is generally thought that E2E testing is not possible. For this reason, I created this repository to provide a demo of how to create a reCAPTCHA for testing, so you can easily try it out.
@@ -23,7 +19,12 @@ Google has prepared the following official keys for you to use in place of your 
 - site_key: `6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI`
 - secret_key: `6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe`
 
-## Getting started
+## How to run it in your local environment
+
+**Prerequisites**
+- [Docker](https://www.docker.com/)
+
+**Step by step**
 
 1. Clone the repository
    ```bash
