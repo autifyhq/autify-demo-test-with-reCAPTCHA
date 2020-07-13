@@ -1,12 +1,4 @@
-[github-action-badge]: https://github.com/autifyhq/autify-demo-test-with-reCAPTCHA/workflows/Check%20Markdown%20links/badge.svg
-
-[pr-welcome-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
-[pr-welcome-link]: http://makeapullrequest.com
-
-[demo-badge]: https://img.shields.io/badge/Autify-Demo-brightgreen
-[demo-link]:  https://github.com/search?utf8=%E2%9C%93&q=demo%2Buser%3Aautifyhq&type=Repositories&ref=searchresults
-
-![Check Markdown links][github-action-badge] [![PRs Welcome][pr-welcome-badge]][pr-welcome-link] [![Demo Badge][demo-badge]][demo-link]
+# autify-demo-test-with-reCAPTCHA
 
 ## Background
 
@@ -19,7 +11,7 @@ Google has prepared the following official keys for you to use in place of your 
 - site_key: `6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI`
 - secret_key: `6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe`
 
-## How to run it in your local environment
+## Configuring your server
 
 **Prerequisites**
 - [Docker](https://www.docker.com/)
@@ -27,15 +19,20 @@ Google has prepared the following official keys for you to use in place of your 
 **Step by step**
 
 1. Clone the repository
+
    ```bash
-   git clone git@github.com:sotayamashita/automated-tests-with-reCAPTCHA.git
+   git clone git@github.com:autifyhq/autify-demo-test-with-reCAPTCHA.git
    cd automated-tests-with-reCAPTCHA
    ```
+
 1. Build an image from a Dockerfile
+
    ```bash
    docker build -t recaptcha-demo --build-arg RUBY_VERSION=2.6.5-alpine3.10 --build-arg BUNDLER_VERSION=2.0.2 .
    ```
+
 1. Start a server
+
    ```bash
    docker run -p 4567:80 recaptcha-demo
    ```
@@ -67,5 +64,5 @@ Automated deploying to production. Hosted on Heroku.
 
 ## License
 
-automated-tests-with-reCAPTCHA © [Autify Engineers](https://github.com/autifyhq). Released under the [MIT License](LICENSE).<br/>
+autify-demo-test-with-reCAPTCHA © [Autify Engineers](https://github.com/autifyhq). Released under the [MIT License](LICENSE).<br/>
 Authored and maintained by [Autify Engineers](https://github.com/autifyhq) with help from [contributors](https://github.com/autifyhq/autify-demo-test-with-reCAPTCHA/graphs/contributors).
